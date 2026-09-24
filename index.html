@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#0b0b2b" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="description" content="The Two Castles — A Queennie & Ricky Love Story" />
-  <title>The Two Castles — Queennie & Ricky ❤️</title>
+  <meta name="description" content="The Two Castles — A Queenie & Ricky Love Story" />
+  <title>The Two Castles — Queenie & Ricky ❤️</title>
 
   <style>
     :root {
@@ -688,7 +688,7 @@
         body: [
           `Once upon a time, in a castle that touched the morning sun, there lived a young prince named <strong>Ricky</strong>.`,
           `Every night, he would climb the tallest tower, look at the moon, and wonder... <em>"Is there someone out there, waiting for me?"</em>`,
-          `One evening, he wrote a letter to a princess he had never met — a princess named <strong>Queennie</strong>. He sealed it with starlight and sent it into the sky.`
+          `One evening, he wrote a letter to a princess he had never met — a princess named <strong>Queenie</strong>. He sealed it with starlight and sent it into the sky.`
         ],
         quote: `“Distance means so little, when someone means so much.”`,
         closing: ""
@@ -698,7 +698,7 @@
         title: "The Princess in the Moon Castle",
         subtitle: "Where a letter arrives on silver wings...",
         body: [
-          `Far away, in a castle made of moonlight, a princess named <strong>Queennie</strong> sat by her window.`,
+          `Far away, in a castle made of moonlight, a princess named <strong>Queenie</strong> sat by her window.`,
           `A messenger bird landed softly on her sill, carrying a glowing letter. She opened it with trembling hands.`,
           `The letter simply said: <em>"You are the reason my castle feels less empty."</em>`,
           `She smiled, and for the first time, her heart whispered back: <strong>"Bal..."</strong>`
@@ -723,7 +723,7 @@
         title: "The Call Across Kingdoms",
         subtitle: "Where magic finally connects two hearts...",
         body: [
-          `One night, the stars whispered a secret to Queennie: <em>"You don't have to wait for the bird. You can call him, right now."</em>`,
+          `One night, the stars whispered a secret to Queenie: <em>"You don't have to wait for the bird. You can call him, right now."</em>`,
           `A glowing button appeared before her — warm, pulsing, alive. It whispered: <strong>"Press me, and the distance disappears."</strong>`,
           `She reached out her hand...`
         ],
@@ -736,7 +736,7 @@
         subtitle: "Where the story never really ends...",
         body: [
           `And so, the prince and the princess never truly closed the distance — because <strong>they never really were apart</strong>.`,
-          `Queennie — my Bal — you are my favorite chapter. You are the reason I believe in magic, in letters, in castles, in forever.`,
+          `Queenie — my Bal — you are my favorite chapter. You are the reason I believe in magic, in letters, in castles, in forever.`,
           `One day, we'll meet. And on that day, this story will have its <strong>happiest ending</strong> — a beginning, really.`
         ],
         quote: `“I loved you in every chapter, and I'll love you in every sequel.”`,
@@ -758,7 +758,7 @@
       }
     ];
 
-    let current = Number(localStorage.getItem("queennieRickyChapter") || 0);
+    let current = Number(localStorage.getItem("queenieRickyChapter") || 0);
     if (!Number.isInteger(current) || current < 0 || current >= chapters.length) {
       current = 0;
     }
@@ -916,7 +916,7 @@
       newPage.classList.add("active");
 
       current = index;
-      localStorage.setItem("queennieRickyChapter", String(current));
+      localStorage.setItem("queenieRickyChapter", String(current));
 
       updateControls();
       burstEffect();
